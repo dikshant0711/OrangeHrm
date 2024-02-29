@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T21:50:14 IST" name="Suite" finished-at="2024-02-29T21:51:30 IST" duration-ms="76192">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T21:50:14 IST" name="Test" finished-at="2024-02-29T21:51:30 IST" duration-ms="76192">
+      <class name="OrangeHrm.Axis.Attachment">
+        <test-method signature="Log()[pri:0, instance:OrangeHrm.Axis.Attachment@1ddf84b8]" started-at="2024-02-29T21:50:41 IST" name="Log" finished-at="2024-02-29T21:51:03 IST" duration-ms="22454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log -->
+        <test-method is-config="true" signature="AddAttach()[pri:0, instance:OrangeHrm.Axis.Attachment@1ddf84b8]" started-at="2024-02-29T21:51:03 IST" name="AddAttach" finished-at="2024-02-29T21:51:06 IST" duration-ms="2154" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : C:\Users\Abhijit Deshmukh\OneDrive\Pictures\Screenshots\223455.png
+  (Session info: chrome=122.0.6261.71)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9540fe88087f7d29fafa34e425441cc4, sendKeysToElement {id=f.D82F463A15230437089254B389BC51BC.d.0E458D21F99793CC3A47679F5C455C20.e.94, value=[Ljava.lang.CharSequence;@76f10035}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.71, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Dikshant\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50067/devtoo..., se:cdpVersion: 122.0.6261.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9540fe88087f7d29fafa34e425441cc4)] -> xpath: (//input[@type='file'])[1]]
+Session ID: 9540fe88087f7d29fafa34e425441cc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Abhijit Deshmukh\OneDrive\Pictures\Screenshots\223455.png
+  (Session info: chrome=122.0.6261.71)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9540fe88087f7d29fafa34e425441cc4, sendKeysToElement {id=f.D82F463A15230437089254B389BC51BC.d.0E458D21F99793CC3A47679F5C455C20.e.94, value=[Ljava.lang.CharSequence;@76f10035}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.71, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Dikshant\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50067/devtoo..., se:cdpVersion: 122.0.6261.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9540fe88087f7d29fafa34e425441cc4)] -> xpath: (//input[@type='file'])[1]]
+Session ID: 9540fe88087f7d29fafa34e425441cc4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at OrangeHrm.Axis.Attachment.AddAttach(Attachment.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAttach -->
+      </class> <!-- OrangeHrm.Axis.Attachment -->
+      <class name="OrangeHrm.Axis.Immigration">
+        <test-method signature="Log()[pri:0, instance:OrangeHrm.Axis.Immigration@4c9f8c13]" started-at="2024-02-29T21:50:14 IST" name="Log" finished-at="2024-02-29T21:50:37 IST" duration-ms="23197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log -->
+        <test-method is-config="true" signature="immigrationTest()[pri:0, instance:OrangeHrm.Axis.Immigration@4c9f8c13]" started-at="2024-02-29T21:50:37 IST" name="immigrationTest" finished-at="2024-02-29T21:50:41 IST" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- immigrationTest -->
+      </class> <!-- OrangeHrm.Axis.Immigration -->
+      <class name="OrangeHrm.Axis.Job">
+        <test-method signature="Log()[pri:0, instance:OrangeHrm.Axis.Job@1139b2f3]" started-at="2024-02-29T21:51:06 IST" name="Log" finished-at="2024-02-29T21:51:28 IST" duration-ms="22610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log -->
+        <test-method is-config="true" signature="jobs()[pri:0, instance:OrangeHrm.Axis.Job@1139b2f3]" started-at="2024-02-29T21:51:28 IST" name="jobs" finished-at="2024-02-29T21:51:30 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobs -->
+      </class> <!-- OrangeHrm.Axis.Job -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
