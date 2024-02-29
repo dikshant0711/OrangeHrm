@@ -17,7 +17,7 @@ public class Attachment extends Login{
 		Addattach.click();
 		System.out.println("Clicked on Add Attachemnts");
 		WebElement Browse = driver.findElement(By.xpath("(//input[@type='file'])[1]"));
-		Browse.sendKeys("C:\\Users\\Abhijit Deshmukh\\OneDrive\\Pictures\\Screenshots\\223455.png");
+		Browse.sendKeys("C:\\Users\\Dikshant\\OneDrive\\Desktop\\DIKSHANT\\d.png");
 		
 		WebElement comments = driver.findElement(By.xpath("//textarea[@placeholder='Type comment here']"));
 		comments.click();
